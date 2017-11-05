@@ -12,7 +12,7 @@
             <weather-conditions v-bind:conditions="city.main"></weather-conditions>
         </li>
     </ul>
-    <error-list v-bind: errorList='errors'></error-list>
+    <error-list v-bind:errorList='errors'></error-list>
     </div>
 </template>
 
